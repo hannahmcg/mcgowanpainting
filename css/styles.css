@@ -57,12 +57,13 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
+  padding-right: 3%;
 }
 
 .burger div{
   width: 25px;
   height: 3px;
-  background-color: #ACACE6;
+  background-color: #265144;
   margin: 5px;
   transition: all 0.3s ease;
 } 
@@ -315,10 +316,6 @@ display: inline-block;
 
 /* SERVICES.HTML */
 
-.top-service {
-  columns: 4;
-}
-
 
 
 /* CONTACT.HTML */
@@ -450,6 +447,17 @@ form {
   font-weight: 600;
 }
 
+.top-service {
+  columns: 4;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.iconimg {
+  height: 60%;
+  width: 60%;
+}
+
 #services {
   /*color: white;*/
 }
@@ -477,6 +485,11 @@ form {
 .section4-2 {
   justify-content: center;
 
+}
+
+.section4 p {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
