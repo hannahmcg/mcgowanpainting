@@ -206,13 +206,13 @@ background-color: wheat;
     position: absolute;
     right: 0px;
     /*height: 92vh;*/
-    height: 90vh;
+    height: 100vh;
     top: 0vh;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 92%;
+    width: 90%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     justify-content: center;
